@@ -19,6 +19,7 @@
     "chart.js": "2.6.0",
     "font-awesome": "^4.7.0",
     "simple-line-icons": "^2.4.1",
+    "tether": "^1.4.3",
     "vue": "2.4.2",
     "vue-chartjs": "2.8.1",
     "vue-router": "2.7.0"
