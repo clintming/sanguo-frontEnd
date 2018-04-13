@@ -7,6 +7,7 @@ import Full from '@/containers/Full'
 // Views
 import Dashboard from '@/views/Dashboard'
 import DbCompare from '@/views/DbCompare'
+import UIReports from '@/views/UIReports'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
           path: '/dbcompare',
           name: '数据表比较',
           component: DbCompare
+        },
+        {
+          path: '/UIReports',
+          name: 'UI测试汇总',
+          component: UIReports
         }
       ]
     }
