@@ -7,6 +7,7 @@ export default {
     },
     {
       name: '自动化测试',
+      icon: 'icon-plane',
       children: [
         {
           name: '接口测试'
@@ -17,23 +18,30 @@ export default {
       ]
     },
     {
-      name: '性能测试'
+      name: '性能测试',
+      icon: 'icon-energy'
     },
     {
-      name: 'API管理',
+      name: '工具管理',
+      icon: 'icon-globe',
       children: [
         {
           name: '数据表比较',
           url: '/dbcompare'
+        },
+        {
+          name: 'Api管理',
+          url: '/ApiMgmt'
         }
       ]
     },
     {
       name: '测试报告统计',
+      icon: 'icon-graph',
       children: [
         {
           name: 'UI测试报告',
-          url: '/UIReports'
+          url: '/UIReports'        
         }
       ]
     }

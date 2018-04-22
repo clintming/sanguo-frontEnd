@@ -149,7 +149,8 @@ export default {
     async getJenkinsViews () {
      const viewsJobs = await this.$axios({
         method: 'get',
-        url: 'http://10.255.1.216:8080/jenkins/view/Automation_ui/api/json?pretty=true'
+        //url: 'http://10.255.1.216:8080/jenkins/view/Automation_ui/api/json?pretty=true'
+        url: 'jenkins/view/Automation_ui/api/json?pretty=true'
       })
       
       var jobs = viewsJobs.data.jobs

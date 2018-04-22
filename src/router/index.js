@@ -8,6 +8,7 @@ import Full from '@/containers/Full'
 import Dashboard from '@/views/Dashboard'
 import DbCompare from '@/views/DbCompare'
 import UIReports from '@/views/UIReports'
+import ApiMgmt from '@/views/toolsMgmt/ApiMgmt'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
           path: '/UIReports',
           name: 'UI测试汇总',
           component: UIReports
+        },
+        {
+          path: 'ApiMgmt',
+          name: 'Api管理',
+          component: ApiMgmt
         }
       ]
     }

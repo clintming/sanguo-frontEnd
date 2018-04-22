@@ -35,13 +35,7 @@ module.exports = {
           '^/api':''
         }
       },
-      // '/jenkins':{
-      //   target: 'http://10.255.1.216:8080/jenkins/',
-      //   changeOrigin: true,
-      //   pathRewrite:{
-      //     '^/jenkins':''
-      //   }
-      // }
+      '/jenkins':'http://10.255.1.216:8080/jenkins/',
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
